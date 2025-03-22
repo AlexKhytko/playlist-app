@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "tests/**/*.ts",
+    "helpers/**/*.ts"
+  ],
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "dotenv": "^16.4.7"
+  }
+}
